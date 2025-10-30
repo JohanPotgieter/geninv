@@ -1,0 +1,615 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+    {font-family:"Cambria Math";
+    panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+    {font-family:"Trebuchet MS";
+    panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+    {font-family:Tahoma;
+    panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+    {margin:0cm;
+    line-height:110%;
+    font-size:8.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+h1
+    {margin:0cm;
+    text-align:right;
+    font-size:20.0pt;
+    font-family:"Trebuchet MS",sans-serif;
+    color:#365F91;
+    letter-spacing:.2pt;}
+h2
+    {mso-style-link:"Heading 2 Char";
+    margin-top:1.0pt;
+    margin-right:0cm;
+    margin-bottom:0cm;
+    margin-left:0cm;
+    font-size:7.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+    {mso-style-link:"Header Char";
+    margin:0cm;
+    font-size:8.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+    {mso-style-link:"Footer Char";
+    margin:0cm;
+    font-size:8.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+a:link, span.MsoHyperlink
+    {color:#17365D;
+    text-decoration:underline;}
+span.Heading2Char
+    {mso-style-name:"Heading 2 Char";
+    mso-style-link:"Heading 2";
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+p.DateandNumber, li.DateandNumber, div.DateandNumber
+    {mso-style-name:"Date and Number";
+    mso-style-link:"Date and Number Char Char";
+    margin:0cm;
+    text-align:right;
+    line-height:110%;
+    font-size:8.0pt;
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;}
+span.DateandNumberCharChar
+    {mso-style-name:"Date and Number Char Char";
+    mso-style-link:"Date and Number";
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;}
+p.Name, li.Name, div.Name
+    {mso-style-name:Name;
+    margin:0cm;
+    font-size:12.0pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+p.Slogan, li.Slogan, div.Slogan
+    {mso-style-name:Slogan;
+    margin-top:3.0pt;
+    margin-right:0cm;
+    margin-bottom:0cm;
+    margin-left:0cm;
+    font-size:7.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;
+    font-style:italic;}
+p.Amount, li.Amount, div.Amount
+    {mso-style-name:Amount;
+    margin:0cm;
+    text-align:right;
+    line-height:110%;
+    font-size:8.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+p.ColumnHeadings, li.ColumnHeadings, div.ColumnHeadings
+    {mso-style-name:"Column Headings";
+    margin:0cm;
+    text-align:center;
+    line-height:110%;
+    font-size:7.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+p.Labels, li.Labels, div.Labels
+    {mso-style-name:Labels;
+    margin-top:1.0pt;
+    margin-right:0cm;
+    margin-bottom:0cm;
+    margin-left:0cm;
+    text-align:right;
+    font-size:7.5pt;
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+p.ExpirationDate, li.ExpirationDate, div.ExpirationDate
+    {mso-style-name:"Expiration Date";
+    mso-style-link:"Expiration Date Char Char";
+    margin:0cm;
+    text-align:right;
+    line-height:110%;
+    font-size:8.0pt;
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+span.ExpirationDateCharChar
+    {mso-style-name:"Expiration Date Char Char";
+    mso-style-link:"Expiration Date";
+    font-family:"Trebuchet MS",sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.2pt;
+    font-weight:bold;}
+span.HeaderChar
+    {mso-style-name:"Header Char";
+    mso-style-link:Header;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+span.FooterChar
+    {mso-style-name:"Footer Char";
+    mso-style-link:Footer;
+    font-family:"Trebuchet MS",sans-serif;
+    letter-spacing:.2pt;}
+.MsoChpDefault
+    {font-size:10.0pt;}
+ /* Page Definitions */
+@page {
+  size: A4 portrait;
+  margin: 50px !important;           /* dominant */
+  margin: 13.23mm !important;        /* fallback if px is ignored */
+}
+
+html, body { margin: 0; padding: 0; box-sizing: border-box; }
+.WordSection1 { padding-left: 0; padding-right: 0; }  /* you had 2mm; remove it */
+
+
+table { width: 100% !important; table-layout: fixed; border-collapse: collapse; }
+th, td { word-wrap: break-word; box-sizing: border-box; }
+
+div.WordSection1
+    {page:WordSection1;}
+ /* List Definitions */
+ ol
+    {margin-bottom:0cm;}
+ul
+    {margin-bottom:0cm;}
+/* Make the items table fit the page and ignore Word's point widths */
+#items {
+  width: 100% !important;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+/* Let cells auto-size within our percentage layout and include padding in width */
+#items th, #items td {
+  width: auto !important;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  padding: 2mm 3mm; /* tweak to taste */
+}
+
+/* Simple, robust column layout that always sums to <=100% */
+#items th:nth-child(1), #items td:nth-child(1) { width: 12% !important; text-align: left;  }
+#items th:nth-child(2), #items td:nth-child(2) { width: 58% !important; text-align: left;  }
+#items th:nth-child(3), #items td:nth-child(3) { width: 15% !important; text-align: right; }
+#items th:nth-child(4), #items td:nth-child(4) { width: 15% !important; text-align: right; }
+/* --- Address block fixes --- */
+#address { width: 100% !important; table-layout: fixed; border-collapse: collapse; }
+#address tr { height: auto !important; } /* ignore Word's fixed row height */
+#address td { padding: 3mm !important; vertical-align: top; box-sizing: border-box; }
+
+/* Make column 1 narrow, column 2 roomy + bigger font, column 3 right-aligned */
+#address td:nth-child(3) { width: 35% !important; text-align: right !important; }
+
+/* Tame the “To” heading so it doesn’t create visual bulk */
+#address h2 { margin: 0 !important; font-size: 9pt !important; letter-spacing: .2pt; text-transform: uppercase; }
+
+/* Kill Word's inline width=XXpt from winning */
+#address td[width], #address td[style*="width:"] { width: auto !important; }
+#address td:nth-child(1){ width:8%!important; }
+#address td:nth-child(2){ width:57%!important; }
+</style>
+
+</head>
+
+<body lang=EN-AU link="#17365D" vlink=purple style='word-wrap:break-word'>
+
+<div class=WordSection1>
+<div class="page">
+<table id="items" class="MsoNormalTable" border=1 cellspacing=0 cellpadding=0
+ summary="Layout table to enter Logo, Invoice number, Date, Expiration Date, Company Name and Slogan, Address, Phone and Fax numbers, and Email address"
+ width="100%" style='width:100.0%;background:black;border-collapse:collapse;
+ border:none'>
+ <tr style='height:33.4pt'>
+  <td width=402 valign=top style='width:301.5pt;border:none;border-top:solid #365F91 1.0pt;
+  padding:0cm 5.75pt 2.9pt 5.75pt;height:33.4pt'>
+  <p class=MsoNormal><span lang=EN-US style='color:white'>&nbsp;</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border:none;border-top:solid #365F91 1.0pt;
+  padding:7.2pt 5.75pt 2.9pt 5.75pt;height:33.4pt'>
+  <h1><span lang=EN-US style='color:white'>Invoice</span></h1>
+  </td>
+ </tr>
+ <tr style='height:27.9pt'>
+  <td width=402 valign=bottom style='width:301.5pt;border:none;padding:0cm 5.75pt 2.9pt 5.75pt;
+  height:27.9pt'>
+  <p class=Name><span lang=EN-US style='color:white'>Noah Smith</span></p>
+  <p class=Slogan><span lang=EN-US style='color:white'>ABN: 23 703 144 642</span></p>
+  </td>
+  <td width=270 valign=bottom style='width:202.5pt;border:none;padding:7.2pt 5.75pt 2.9pt 5.75pt;
+  height:27.9pt'>
+  <p class=DateandNumber><span lang=EN-US style='color:white'>INVOICE # {{invoice_number}}</span></p>
+  <p class=DateandNumber><span lang=EN-US style='color:white;text-transform:
+  none'>{{date_long}}</span></p>
+  </td>
+ </tr>
+ <tr style='height:25.65pt'>
+  <td width=402 valign=top style='width:301.5pt;border:none;padding:0cm 5.75pt 0cm 5.75pt;
+  height:25.65pt'>
+  <p class=MsoNormal><span lang=EN-US style='color:white'>&nbsp;</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border:none;padding:7.2pt 5.75pt 0cm 5.75pt;
+  height:25.65pt'>
+  <p class=ExpirationDate style='margin-left:36.0pt'><span
+  class=ExpirationDateCharChar><span lang=EN-US style='color:white;text-transform:
+  none;font-weight:normal'><b><span style='text-transform:uppercase'>Expiration
+  Date</span></b></span><span lang=EN-US style='color:white'>:</span></span><span
+  lang=EN-US style='color:white;text-transform:none'> {{due_date_long}}</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<!-- Address block (Dompdf-proof widths) -->
+<table style="width:100%; border-collapse:collapse; table-layout:fixed;">
+  <colgroup>
+    <!-- sums to 173mm, leaving buffer inside an A4 content box with ~50px margins -->
+    <col style="width:14mm !important;">
+    <col style="width:109mm !important;">
+    <col style="width:50mm !important;">
+  </colgroup>
+  <tr>
+    <!-- Col 1: TO (narrow) -->
+    <td style="box-sizing:border-box; padding:3mm 2mm 3mm 0; vertical-align:top; white-space:nowrap;">
+      <div style="margin:0; font-family:'Trebuchet MS', Arial, sans-serif; font-size:9pt; letter-spacing:.2pt; text-transform:uppercase; font-weight:700;">
+        To
+      </div>
+    </td>
+
+    <!-- Col 2: Address (bigger font) -->
+    <td style="box-sizing:border-box; padding:3mm; vertical-align:top; font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt; line-height:1.35;">
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">Johan Potgieter</p>
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">8/38 Balstrup Road</p>
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">Kallangur</p>
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">QLD</p>
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">4503</p>
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:12pt;">0481 381 946</p>
+    </td>
+
+    <!-- Col 3: Email (right-aligned, wraps) -->
+    <td style="box-sizing:border-box; padding:3mm 0 3mm 3mm; vertical-align:top; text-align:right; font-family:'Trebuchet MS', Arial, sans-serif; overflow-wrap:anywhere; word-break:break-word;">
+      <p class="MsoNormal" style="margin:0;font-family:'Trebuchet MS', Arial, sans-serif; font-size:10pt;">
+        <a href="mailto:noah.thomas.smith@tutanota.com">noah.thomas.smith@tutanota.com</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ summary="Enter Quantity, Description, Unit Price, Discount, and Line Total in table columns, and Subtotal, Sales Tax, and Total at the end of this table"
+ width="100%" style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  solid #365F91 1.5pt;background:#DBE5F1;padding:2.15pt 5.75pt 2.15pt 5.75pt;
+  height:14.4pt'>
+  <p class=ColumnHeadings><span lang=EN-US style='color:black'>qty</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:solid #365F91 1.5pt;
+  border-left:none;border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  background:#DBE5F1;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=ColumnHeadings><span lang=EN-US style='color:black'>description</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:solid #365F91 1.5pt;border-left:
+  none;border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  background:#DBE5F1;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=ColumnHeadings><span lang=EN-US style='color:black'>unit price</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:solid #365F91 1.5pt;border-left:
+  none;border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  background:#DBE5F1;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=ColumnHeadings><span lang=EN-US style='color:black'>line total</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>Night Out</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>{{amount}}</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>{{amount}}</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=118 style='width:88.55pt;border:solid #365F91 1.0pt;border-top:
+  none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=312 style='width:234.35pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=431 colspan=2 style='width:322.9pt;border:none;padding:2.15pt 5.75pt 2.15pt 5.75pt;
+  height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border:none;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=Labels><span lang=EN-US>Subtotal</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>{{amount}}</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=431 colspan=2 style='width:322.9pt;border:none;padding:2.15pt 5.75pt 2.15pt 5.75pt;
+  height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border:none;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=Labels><span lang=EN-US>Sales Tax</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>$0.00</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid;height:14.4pt'>
+  <td width=431 colspan=2 style='width:322.9pt;border:none;padding:2.15pt 5.75pt 2.15pt 5.75pt;
+  height:14.4pt'>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=116 style='width:86.85pt;border:none;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt'>
+  <p class=Labels><span lang=EN-US>Total</span></p>
+  </td>
+  <td width=115 style='width:86.55pt;border-top:none;border-left:none;
+  border-bottom:solid #365F91 1.0pt;border-right:solid #365F91 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt'>
+  <p class=Amount><span lang=EN-US>{{amount}}</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+</div>
+</div>
+
+</body>
+
+</html>
